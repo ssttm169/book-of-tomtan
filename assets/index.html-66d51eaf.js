@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as a,c as n,a as s,b as c}from"./app-b28ea471.js";const r={},_=c("p",null,"这是一本我复盘这几十年的人生历练和成长记录的书.",-1);function l(d,m){const e=t("AutoCatalog");return a(),n("div",null,[_,s(e,{base:"/we-are-super-men/"})])}const i=o(r,[["render",l],["__file","index.html.vue"]]);export{i as default};

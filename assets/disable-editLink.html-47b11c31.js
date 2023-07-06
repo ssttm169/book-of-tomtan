@@ -1,0 +1,11 @@
+import{_ as n,o as s,c as a,e}from"./app-b28ea471.js";const t="/project/vuepress-theme-hope/5.png.webp",i={},p=e('<br><p>我们不想在页面的下面 展示编辑此页链接.</p><p><img src="'+t+`" alt="图片" loading="lazy"><br><br></p><h2 id="局部禁止" tabindex="-1"><a class="header-anchor" href="#局部禁止" aria-hidden="true">#</a> 局部禁止</h2><p>单个文件禁止是的方法是, 在某个md里边 把YAML front matter的editLink属性设置为false即可。</p><div class="language-YAML line-numbers-mode" data-ext="YAML"><pre class="language-YAML"><code>---
+editLink: false
+---
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><br><h2 id="全局部禁止" tabindex="-1"><a class="header-anchor" href="#全局部禁止" aria-hidden="true">#</a> 全局部禁止</h2><p>全局部禁止的方法<br> 在 docs/.vuepress/theme.ts 里边, 把editLink设置为false即可以</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> hopeTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vuepress-theme-hope&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">hopeTheme</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token operator">...</span>
+  <span class="token literal-property property">editLink</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token operator">...</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,10),o=[p];function c(l,r){return s(),a("div",null,o)}const u=n(i,[["render",c],["__file","disable-editLink.html.vue"]]);export{u as default};
